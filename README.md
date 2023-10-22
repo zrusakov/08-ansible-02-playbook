@@ -87,7 +87,6 @@ site.yml
         group: "{{ ansible_user_gid }}"
         backup: true
       notify: Start Vector service
-
 ```
 
 **5. Запустите ansible-lint site.yml и исправьте ошибки, если они есть.**
